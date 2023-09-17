@@ -1,1 +1,22 @@
+print("~~~~~~~~~~~~~ MINI  CALCULATOR ~~~~~~~~~~~~~~~~~~~")
+print("\n")
+
+num1=float(input("Enter the 1st Number : "))
+num2=float(input("Enter the 2nd Number : "))
+
+print(" Press 1 for ADDITION \n Press 2 for SUBTRACTION \n Press 3 for MULTIPLICATION \n Press 4 for DIVISION ")
+Choice =int(input("Enter Your Choice From 1-4 : "))
+if Choice == 1:
+  print("ADDITION :-",num1 + num2)
+elif Choice == 2:
+    print("SUBTRACTION :-",num1 - num2)
+elif Choice == 3:
+    print("MULTIPLICATION :-",num1 * num2)
+elif Choice == 4:
+    print("DIVISION :-",num1 / num2)
+else:
+    print("Error and Invalid Input")
+    
+
+
 
